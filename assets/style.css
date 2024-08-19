@@ -1,0 +1,130 @@
+/* Style de base pour l'élément body */
+body {
+    font-family: Arial, sans-serif; /* Définit la police de caractères pour la page */
+    background-color: #f4f4f4; /* Définit une couleur de fond gris clair */
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Supprime le padding par défaut */
+}
+
+/* Style pour le conteneur central */
+.container {
+    background-color: #f6f2f2; /* Définit la couleur de fond à blanc */
+    border-radius: 8px; /* Arrondit les coins du conteneur */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Ajoute une ombre subtile */
+    padding: 20px; /* Ajoute un padding à l'intérieur du conteneur */
+    margin: 20px auto; /* Centre le conteneur et ajoute une marge verticale */
+    max-width: 600px; /* Restrict la largeur maximale du conteneur */
+}
+
+/* Style du bouton principal */
+.btn-primary {
+    background-color: #007bff; /* Définit la couleur de fond du bouton */
+    border: none; /* Supprime la bordure par défaut */
+    color: #fff; /* Définit la couleur du texte à blanc */
+    padding: 10px 20px; /* Ajoute du padding à l'intérieur du bouton */
+    border-radius: 5px; /* Arrondit les coins du bouton */
+    font-size: 16px; /* Définit la taille de la police */
+    transition: background-color 0.3s ease; /* Ajoute une transition douce pour la couleur de fond */
+}
+
+/* Effet au survol du bouton principal */
+.btn-primary:hover {
+    background-color: #0056b3; /* Change la couleur du bouton au survol */
+}
+
+/* Style pour les groupes de formulaires */
+.form-group {
+    margin-bottom: 20px; /* Ajoute un espace en dessous de chaque groupe de formulaires */
+}
+
+/* Image de fond pour le body */
+body {
+    background-image: url('../images/i_20240813_123511.jpg'); /* Définit une image de fond */
+    background-size: cover; /* Assure que l'image couvre l'ensemble de l'arrière-plan */
+    background-position: center; /* Centre l'image de fond */
+}
+
+/* Transition pour les liens de navigation */
+.nav-link {
+    transition: color 0.3s, background-color 0.3s; /* Transition douce pour la couleur et la couleur de fond */
+}
+
+  
+  .nav-link:hover {
+    color: #f8f9fa; /* Couleur du texte au survol */
+    background-color: #495057; /* Couleur de fond au survol */
+    border-radius: 4px;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('path/to/icon.svg'); /* Utilisez une icône personnalisée */
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    background-color: rgba(70, 13, 155, 0.1);
+  }
+
+  .nav-link i {
+    margin-right: 8px; /* Espacement entre l'icône et le texte */
+    font-size: 1px; /* Taille de l'icône */
+    color: #ffffff; /* Couleur de l'icône */
+  }
+  
+  .nav-link:hover i {
+    color: #f8f9fa; /* Couleur de l'icône au survol */
+  }
+  
+  .alert {
+    margin-top: 1rem;
+  }
+
+  .btn-primary {
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px 20px; /* Espacement interne */
+    font-size: 16px; /* Taille du texte */
+  }
+
+  .form-control[type="file"] {
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+
+  .form-container {
+    border: 2px solid #007bff; /* Bordure bleue pour correspondre au bouton */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espacement intérieur */
+    background-color: #f9f9f9; /* Couleur de fond légère */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée pour effet de profondeur */
+    margin-top: 20px; /* Marge supérieure pour éloigner du contenu au-dessus */
+}
+
+.form-container .form-label {
+    font-weight: bold; /* Met le texte des labels en gras */
+}
+
+.form-container .btn {
+    margin-top: 10px; /* Marge au-dessus du bouton */
+}
+
+
+  
